@@ -1,0 +1,10 @@
+train:
+  n_epochs: 30
+  batch_size: 128
+  batches_per_epoch: 1000
+  learning_rate: 0.001
+  noise_mean: [0, 0]
+  noise_cov: [[1, 0],[0, 1]]
+  target_mean: [12, 200]
+  target_cov: [[1,0.25], [0.25, 1]]
+  discriminator_steps_per_gen_step: 5
